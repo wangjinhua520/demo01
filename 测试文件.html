@@ -1,0 +1,378 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="X-UA-Compatible" content="IE=10,IE=9,IE=8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>Windows英文版GitHub客户端使用操作流程图文攻略教程现没中文版 &#8211; 爱分享</title>
+<link rel="shortcut icon" href="/ihref.ico" />
+<script>
+window._deel = {
+    name: '爱分享',
+    url: 'http://www.ihref.com/wp-content/themes/d8-3_0',
+    rss: 'www.ihref.com/feed',
+    ajaxpager: '',
+    maillist: 'on',
+    maillistCode: '4a711b81b79f02ecee3a32544db26af6ec2342595f6c5d3d',
+    commenton: 1,
+    roll: [,]
+}
+</script>
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.ihref.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.7"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='style-css'  href='http://www.ihref.com/wp-content/themes/d8-3_0/style.css?ver=3.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.ihref.com/wp-content/themes/d8-3_0/js/jquery.js?ver=3.0'></script>
+<link rel='prev' title='Linux服务器nginx访问日志里出现大量http400错误的请求分析' href='http://www.ihref.com/read-16479.html' />
+<link rel='next' title='用Meta标签代码让360双核浏览器默认极速模式打开网站不是兼容模式' href='http://www.ihref.com/read-16623.html' />
+<link rel='canonical' href='http://www.ihref.com/read-16514.html' />
+<link rel='shortlink' href='http://www.ihref.com/?p=16514' />
+<link rel="stylesheet" href="http://www.ihref.com/wp-content/plugins/cookies-for-comments/css.php?k=acfae93902931b5d075241f682fb4f7e&amp;t=1508130575" type="text/css" media="screen" /><meta name="keywords" content="GitHub, windows, 中文版, 图文教程, 软件应用">
+<meta name="description" content="扩展阅读：  Git客户端图文详解如何安装配置GitHub操作流程攻略  Git版本控制软件结合GitHub从入门到精通常用命令学习手册 Git是一个分布式的版本控制系统，最初由Linus Torvalds编写，用作Linux内核代码的管理。作为一个程序员，我们需要掌握其用法。  作为开源代码库以及版本控制系统，Github目前拥有140多万开发者用户。随着越来越多的应用程序转移到了云上，Github已经成为了管理软件开发以及发现已有代">
+<!-- 请置于所有广告位代码之前 -->
+<script src="http://dup.baidustatic.com/js/dm.js"></script>
+
+<!--谷歌网页级广告-->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-4019190604262164",
+    enable_page_level_ads: true
+  });
+</script><!--[if lt IE 9]><script src="http://www.ihref.com/wp-content/themes/d8-3_0/js/html5.js"></script><![endif]-->
+</head>
+<body class="single single-post postid-16514 single-format-standard">
+<header class="header">
+	<div class="navbar">
+		<div class="logo"><a href="http://www.ihref.com" title="爱分享-生活、电脑、IT、编程知识及技巧分享">爱分享</a></div>
+		<ul class="nav">
+			<li id="menu-item-56" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-56"><a href="http://www.ihref.com/read-category/life">生活娱乐</a>
+<ul class="sub-menu">
+	<li id="menu-item-14586" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14586"><a href="http://www.ihref.com/read-category/life/baike">常识百科</a></li>
+	<li id="menu-item-14772" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14772"><a href="http://www.ihref.com/read-category/life/travel">旅游摄影</a></li>
+	<li id="menu-item-57" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-57"><a href="http://www.ihref.com/read-category/life/movie">电影</a></li>
+	<li id="menu-item-60" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-60"><a href="http://www.ihref.com/read-category/life/music">音乐</a></li>
+</ul>
+</li>
+<li id="menu-item-61" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-61"><a href="http://www.ihref.com/read-category/computer">电脑手机</a>
+<ul class="sub-menu">
+	<li id="menu-item-1708" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1708"><a href="http://www.ihref.com/read-category/computer/system">故障解决</a></li>
+	<li id="menu-item-62" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-62"><a href="http://www.ihref.com/read-category/computer/game">游戏娱乐</a></li>
+	<li id="menu-item-63" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-63"><a href="http://www.ihref.com/read-category/computer/software">软件应用</a></li>
+</ul>
+</li>
+<li id="menu-item-1580" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1580"><a href="http://www.ihref.com/read-category/website">网站电商</a></li>
+<li id="menu-item-16190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16190"><a href="http://www.ihref.com/pic">轻松一刻</a></li>
+<li id="menu-item-12886" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12886"><a href="http://www.ihref.com/read-category/zatan">杂谈</a></li>
+<li id="menu-item-17427" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17427"><a href="http://www.link588.com/">IT工厂</a></li>
+		</ul>
+		<div class="menu pull-right">
+			<form method="get" class="dropdown search-form" action="http://www.ihref.com/" >
+				<input class="search-input" name="s" type="text" placeholder="输入关键字搜索" x-webkit-speech=""><input class="btn btn-success search-submit" type="submit" value="搜索">
+				<ul class="dropdown-menu search-suggest"></ul>
+			</form>
+			<div class="btn-group pull-left">
+				<button class="btn btn-primary" data-toggle="modal" data-target="#feed">订阅</button>
+								<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">关注 <i class="caret"></i></button>
+				<ul class="dropdown-menu pull-right">
+										<li><a href="http://weibo.com/suyuwen1" target="_blank">新浪微博</a></li>														</ul>
+							</div>
+		</div>
+	</div>
+	<div class="speedbar">
+					<div class="pull-right">
+				<i class="icon-user icon12"></i> <a href="http://www.ihref.com/wp-login.php">登录</a>			</div>
+				<div class="toptip"><strong class="text-success">最新消息：</strong>加入500人QQ群：87696847<a style="color:red;padding-left:20px" target="_black" href="http://www.say588.com">→ 进入畅聊网</a><a style="color:blue;padding-left:20px" target="_black" href="http://www.link588.com">→ IT工厂</a></div>
+	</div>
+</header>
+<section class="container">
+	<div class="content-wrap">
+	<div class="content">
+		<div class="breadcrumbs">你的位置：<a href="http://www.ihref.com">爱分享</a> <small>></small> <a href="http://www.ihref.com/read-category/computer">电脑手机</a> <small>></small> <a href="http://www.ihref.com/read-category/computer/software">软件应用</a> <small>></small> <span class="muted">Windows英文版GitHub客户端使用操作流程图文攻略教程现没中文版</span></div>
+				<header class="article-header">
+			<h1 class="article-title"><a href="http://www.ihref.com/read-16514.html">Windows英文版GitHub客户端使用操作流程图文攻略教程现没中文版</a></h1>
+			<div class="meta">
+				<span class="muted"><a href="http://www.ihref.com/read-category/computer/software"><i class="icon-list-alt icon12"></i> 软件应用</a></span>				<span class="muted"><i class="icon-user icon12"></i> <a href="http://www.ihref.com/read-author/suyuwen1">爱分享</a></span>
+				<time class="muted"><i class="ico icon-time icon12"></i> 2年前 (2014-11-05)</time>
+				<span class="muted"><i class="ico icon-eye-open icon12"></i> 33004浏览</span>
+				<span class="muted"><i class="icon-comment icon12"></i> <a href="http://www.ihref.com/read-16514.html#comments">0评论</a></span>							</div>
+		</header>
+
+		<div class="banner banner-post"><div style="width:730px;margin:0px auto 0px auto"><div style="float:left;margin:0px 50px 0px 0px"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 爱分享336*280内容上 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-4019190604262164"
+     data-ad-slot="1356372730"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<div style="float:left;width:336px;height:280px;"><div style="position:absolute;"><script type="text/javascript">
+    /*爱分享内容上336*280 创建于 2014-11-16*/
+    var cpro_id = "u1811091";
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
+</div></div><div style="clear:both"></div></div>
+<div style="padding-top:20px"><script type="text/javascript">
+    /*标题下图广告960*90 创建于 2014-11-02*/
+    var cpro_id = "u1787106";
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script></div></div>				<!-- 广告1结束 -->
+		<article class="article-content">
+			<blockquote><p>扩展阅读：</p>
+<p><a title="Git客户端图文详解如何安装配置GitHub操作流程攻略" href="http://www.ihref.com/read-16377.html" target="_blank">Git客户端图文详解如何安装配置GitHub操作流程攻略</a></p>
+<p><a href="http://www.ihref.com/read-16369.html" target="_blank">Git版本控制软件结合GitHub从入门到精通常用命令学习手册</a></p></blockquote>
+<p>Git是一个分布式的版本控制系统，最初由Linus Torvalds编写，用作Linux内核代码的管理。作为一个程序员，我们需要掌握其用法。</p>
+<p>作为开源代码库以及版本控制系统，Github目前拥有140多万开发者用户。随着越来越多的应用程序转移到了云上，Github已经成为了管理软件开发以及发现已有代码的首选方法。其联合创始人Chris Wanstrath曾经形象地称其为“程序员的维基百科全书”。</p>
+<p>GitHub 使用 git 分布式版本控制系统，而 git 最初是 Linus Torvalds 为帮助Linux开发而创造的，它针对的是 Linux 平台，因此 git 和 Windows 从来不是最好的朋友，因为它一点也不像 Windows。GitHub 发布了GitHub for Windows，为 Windows 平台开发者提供了一个易于使用的 Git 图形客户端。</p>
+<p>GitHub for Windows 是一个 Metro 风格应用程序，集成了自包含版本的 Git，bash 命令行 shell，PowerShell 的 posh-git 扩展。GitHub 为 Windows 用户提供了一个基本的图形前端去处理大部分常用版本控制任务，可以创建版本库，向本地版本库递交补丁，在本地和远程版本库之间同步。微软也通过CodePlex向开发者提供 git 版本控制系统，而 GitHub 创造了一个更具有吸引力的 Windows 版本。</p>
+<h2>一：下载GitHub for Windows 2.0</h2>
+<p>下载地址：<a href="https://windows.github.com/" target="_blank">https://windows.github.com/</a></p>
+<p><img class="alignnone size-full wp-image-16515" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_1.png" alt="GitHub for Windows 2" width="1083" height="391" /></p>
+<h2>二：安装GitHub</h2>
+<p>下载之后点击</p>
+<p><img class="alignnone size-full wp-image-16516" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_2.png" alt="GitHub for Windows 2" width="85" height="87" /></p>
+<p>进行安装过程，安装之后桌面上会有两个图标，如下图</p>
+<p><img class="alignnone size-full wp-image-16517" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_3.png" alt="GitHub for Windows 2" width="71" height="76" /> <img class="alignnone size-full wp-image-16518" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_4.png" alt="GitHub for Windows 2" width="71" height="67" /></p>
+<h2>三：新建项目</h2>
+<p>GitHub是图形界面模式，Git Shell是命令行模式，在Windows系统下我们使用GitHub进行代码管理。<br />
+1：打开GitHub图形界面，输入用户名密码或注册新账号，如下图：</p>
+<p><img class="alignnone size-full wp-image-16519" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_5.png" alt="GitHub for Windows 2" width="841" height="431" /></p>
+<p>2：登录之后新建项目</p>
+<p>点击左上角</p>
+<p><img class="alignnone size-full wp-image-16520" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_6.png" alt="GitHub for Windows 2" width="40" height="25" /></p>
+<p>进行新建项目，如下图所示：</p>
+<p><img class="alignnone size-full wp-image-16521" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_7.png" alt="GitHub for Windows 2" width="1113" height="437" /></p>
+<p>新建之后如下图所示：</p>
+<p><img class="alignnone size-full wp-image-16522" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_8.png" alt="GitHub for Windows 2" width="1366" height="314" /></p>
+<p>在电脑上查找刚才所选择的路径，会发现在该路径下会新建一个“Temp”文件夹，如下图所示：</p>
+<p><img class="alignnone size-full wp-image-16523" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_9.png" alt="GitHub for Windows 2" width="1114" height="228" /></p>
+<p>点击软件右上角</p>
+<p><img class="alignnone size-full wp-image-16524" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_10.png" alt="GitHub for Windows 2" width="154" height="25" /></p>
+<p>填写项目说明，如下图所示：</p>
+<p><img class="alignnone size-full wp-image-16525" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_11.png" alt="GitHub for Windows 2" width="776" height="398" /></p>
+<p>下一步点击右上角</p>
+<p><img class="alignnone size-full wp-image-16526" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_12.png" alt="GitHub for Windows 2" width="26" height="23" /></p>
+<p>展开之后点击</p>
+<p><img class="alignnone size-full wp-image-16527" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_13.png" alt="GitHub for Windows 2" width="118" height="20" /></p>
+<p>在浏览器中查看项目详情，如下图所示：</p>
+<p><img class="alignnone size-full wp-image-16528" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_14.png" alt="GitHub for Windows 2" width="1065" height="430" /></p>
+<p>3：在计算机中Temp文件夹下添加一个空白文档”测试.doc“，如下图所示：</p>
+<p><img class="alignnone size-full wp-image-16529" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_15.png" alt="GitHub for Windows 2" width="852" height="222" /></p>
+<p>下一步打开GitHub程序，会发现界面有所改变，之后按照提示填写内容，然后点击</p>
+<p><img class="alignnone size-full wp-image-16530" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_16.png" alt="GitHub for Windows 2" width="196" height="34" /></p>
+<p>提交即可，如下图所示：</p>
+<p><img class="alignnone size-full wp-image-16531" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_17.png" alt="GitHub for Windows 2" width="1357" height="381" /></p>
+<p>提交之后如下图所示，然后点击右上角</p>
+<p><img class="alignnone size-full wp-image-16532" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_18.png" alt="GitHub for Windows 2" width="102" height="34" /></p>
+<p>进行同步</p>
+<p><img class="alignnone size-full wp-image-16533" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_19.png" alt="GitHub for Windows 2" width="1346" height="272" /></p>
+<p>同步完之后在浏览器中查看，这时项目的提交次数已经变成了”2“，如下图所示：</p>
+<p><img class="alignnone size-full wp-image-16534" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_20.png" alt="GitHub for Windows 2" width="1046" height="377" /></p>
+<p>点击</p>
+<p><img class="alignnone size-full wp-image-16535" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_21.png" alt="GitHub for Windows 2" width="89" height="23" /></p>
+<p>可以查看先前的版本，如下图所示：</p>
+<p><img class="alignnone size-full wp-image-16536" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_22.png" alt="GitHub for Windows 2" width="1004" height="281" /></p>
+<h2>四：修改项目</h2>
+<p>在计算机中修改先前新建的空白文档”测试.doc“，如下图所示：</p>
+<p><img class="alignnone size-full wp-image-16537" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_23.png" alt="GitHub for Windows 2" width="760" height="188" /></p>
+<p>修改保存之后，在软件中再一次进行提交同步操作，如下图所示：</p>
+<p><img class="alignnone size-full wp-image-16538" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_24.png" alt="GitHub for Windows 2" width="1363" height="268" /></p>
+<p>同步之后再浏览器中查看，提交次数已经变成了3次，之后可以分别下载第二次与第三次提交的文档，可以比较看出我们修改的内容。</p>
+<h2>五：删除项目</h2>
+<p>想要删除不需要的项目时，点击右下方</p>
+<p><img class="alignnone size-full wp-image-16539" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_25.png" alt="GitHub for Windows 2" width="73" height="25" /></p>
+<p>进入删除页面，然后点击页面最下方</p>
+<p><img class="alignnone size-full wp-image-16540" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_26.png" alt="GitHub for Windows 2" width="159" height="33" /></p>
+<p>弹出删除框，然后填写删除项目的名称，然后点击</p>
+<p><img class="alignnone size-full wp-image-16541" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_27.png" alt="GitHub for Windows 2" width="422" height="31" /></p>
+<p>进行删除，如下图所示：</p>
+<p><img class="alignnone size-full wp-image-16542" src="http://www.ihref.com/wp-content/uploads/2014/11/GitHub-for-Windows-2_28.png" alt="GitHub for Windows 2" width="890" height="504" /></p>
+<h2>六：结束细语</h2>
+<p>GitHub for Windows简化了一些概念和操作，并且几乎所有主要操作都通过图形界面来完成，基本上能完成日常写作了。这些主要的简化包括：</p>
+<p>1. 将push到远程仓库简化为一个同步按钮<br />
+2. 将提交到本地仓库简化为只需要对一些列修改添加评论<br />
+更多的，还包括分支的建立和管理，这部分自己去探索吧，总之，GitHub for Windows确实是一个非常好的工具。</p>
+<p>GitHub功能十分强大，但是对于新手而言用起来确实有点困难，本篇文章只是演示简单的用法，接下来如果有时间会详细的给大家讲讲GitHub的用法。</p>
+<p>转载请注明：<a href="http://www.ihref.com">爱分享</a> &raquo; <a href="http://www.ihref.com/read-16514.html">Windows英文版GitHub客户端使用操作流程图文攻略教程现没中文版</a></br>原文地址：<a href="http://www.ihref.com/read-16514.html">http://www.ihref.com/read-16514.html</a></p>            <div class="banner banner-comment"><div><div style="padding-top:15px"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 爱分享内容下广告 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4019190604262164"
+     data-ad-slot="9135729135"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<div style="width:360px;margin:0 auto;height:350px;"><div style="padding-top:30px;position:absolute;"><script type="text/javascript">
+/*爱分享内容下大矩形*/
+var cpro_id = "u1506107";
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script></div></div></div></div>            <div class="share"><div class="bdsharebuttonbox"><span class="share-tit">分享此文到：</span><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div></div>		</article>
+
+						<!-- 广告2结束 -->
+		<footer class="article-footer">
+			<div class="article-tags">继续浏览有关 <a href="http://www.ihref.com/read-tag/github" rel="tag">GitHub</a><a href="http://www.ihref.com/read-tag/windows" rel="tag">windows</a><a href="http://www.ihref.com/read-tag/%e4%b8%ad%e6%96%87%e7%89%88" rel="tag">中文版</a><a href="http://www.ihref.com/read-tag/%e5%9b%be%e6%96%87%e6%95%99%e7%a8%8b" rel="tag">图文教程</a> 的文章</div>		</footer>
+
+		<nav class="article-nav">
+			<span class="article-nav-prev">上一篇 <a href="http://www.ihref.com/read-16479.html" rel="prev">Linux服务器nginx访问日志里出现大量http400错误的请求分析</a></span>
+			<span class="article-nav-next"><a href="http://www.ihref.com/read-16623.html" rel="next">用Meta标签代码让360双核浏览器默认极速模式打开网站不是兼容模式</a> 下一篇</span>
+		</nav>
+
+		<div class="relates">
+			<h3>与本文相关的文章</h3>
+			<ul>
+<li><a href="http://www.ihref.com/read-16457.html">Windows7安装程序无法定位现有系统分区,也无法创建新的系统分区</a></li><li><a href="http://www.ihref.com/read-16443.html">windows电脑系统重装前需备份那些东西那些文件那些内容数据</a></li><li><a href="http://www.ihref.com/read-16377.html">Git客户端图文详解如何安装配置GitHub操作流程攻略</a></li><li><a href="http://www.ihref.com/read-16369.html">Git版本控制软件结合GitHub从入门到精通常用命令学习手册</a></li><li><a href="http://www.ihref.com/read-16296.html">windows找不到文件computer management.lnk解决方法</a></li><li><a href="http://www.ihref.com/read-15714.html">Office365无法启动应用程序请联系应用程序供应商</a></li><li><a href="http://www.ihref.com/read-15671.html">Microsoft Windows Network本地设备名已在使用中此连接尚未还原</a></li><li><a href="http://www.ihref.com/read-14837.html">office安装提示Windows Installer服务不能更新一个或多个受保护的Windows文件</a></li><li><a href="http://www.ihref.com/read-14431.html">微软Windows Azure免费vps网站云空间申请和使用教程</a></li><li><a href="http://www.ihref.com/read-12731.html">为什么硬盘、U盘容量少于实际大小?</a></li><li><a href="http://www.ihref.com/read-1711.html">电脑内存条松动导致的故障现象及解决方法</a></li><li><a href="http://www.ihref.com/read-1698.html">如何改变windows电脑开机关机或注销音乐变成自己的音乐</a></li></ul>		</div>
+
+		<div class="banner banner-related"><script type="text/javascript">
+    /*为了保证用户体验及收益，图片大小不得小于：200*180*/
+    /*爱分享pc图片+*/
+var cpro_id = "u2282564";
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/i.js" type="text/javascript"></script></div>
+		<div id="respond" class="no_webshot">
+		<form action="http://www.ihref.com/wp-comments-post.php" method="post" id="commentform">
+		
+		<div class="comt-title">
+			<div class="comt-avatar pull-left">
+				<img alt='' src='http://sdn.geekzu.org/avatar/?s=28&#038;d=http%3A%2F%2Fwww.ihref.com%2Fwp-content%2Fthemes%2Fd8-3_0%2Fimg%2Fdefault.png&#038;r=g' srcset='http://sdn.geekzu.org/avatar/?s=56&amp;d=http%3A%2F%2Fwww.ihref.com%2Fwp-content%2Fthemes%2Fd8-3_0%2Fimg%2Fdefault.png&amp;r=g 2x' class='avatar avatar-28 photo avatar-default' height='28' width='28' />			</div>
+			<div class="comt-author pull-left">
+			<span>发表我的评论</span>			</div>
+			<a id="cancel-comment-reply-link" class="pull-right" href="javascript:;">取消评论</a>
+		</div>
+		<div class="comt">
+			<div class="comt-box">
+				<textarea placeholder="写点什么..." class="input-block-level comt-area" name="comment" id="comment" cols="100%" rows="3" tabindex="1" onkeydown="if(event.ctrlKey&amp;&amp;event.keyCode==13){document.getElementById('submit').click();return false};"></textarea>
+				<div class="comt-ctrl">
+					<button class="btn btn-primary pull-right" type="submit" name="submit" id="submit" tabindex="5"><i class="icon-ok-circle icon-white icon12"></i> 提交评论</button>
+					<div class="comt-tips pull-right"><input type='hidden' name='comment_post_ID' value='16514' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="491690e8ce" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="180"/></p></div>
+					<span data-type="comment-insert-smilie" class="muted comt-smilie"><i class="icon-thumbs-up icon12"></i> 表情</span>
+					<span class="muted comt-mailme"><label for="comment_mail_notify" class="checkbox inline" style="padding-top:0"><input type="checkbox" name="comment_mail_notify" id="comment_mail_notify" value="comment_mail_notify" checked="checked"/>有人回复时邮件通知我</label></span>
+				</div>
+			</div>
+
+												<div class="comt-comterinfo" id="comment-author-info" >
+						<h4>Hi，您需要填写昵称和邮箱！</h4>
+						<ul>
+							<li class="form-inline"><label class="hide" for="author">昵称</label><input class="ipt" type="text" name="author" id="author" value="" tabindex="2" placeholder="昵称"><span class="help-inline">昵称 (必填)</span></li>
+							<li class="form-inline"><label class="hide" for="email">邮箱</label><input class="ipt" type="text" name="email" id="email" value="" tabindex="3" placeholder="邮箱"><span class="help-inline">邮箱 (必填)</span></li>
+							<li class="form-inline"><label class="hide" for="url">网址</label><input class="ipt" type="text" name="url" id="url" value="" tabindex="4" placeholder="网址"><span class="help-inline">网址</span></li>
+						</ul>
+					</div>
+									</div>
+
+		
+	</form>
+	</div>
+<div id="postcomments">
+	<h3 id="comments">
+		网友最新评论<b> (2)</b>
+	</h3>
+	<ol class="commentlist">
+		<li class="comment even thread-even depth-1" id="comment-2230"><div class="c-avatar"><img alt='' data-original='http://sdn.geekzu.org/avatar/15dce703d8946e2bd9328b0de7cd7143?s=36&#038;d=http%3A%2F%2Fwww.ihref.com%2Fwp-content%2Fthemes%2Fd8-3_0%2Fimg%2Fdefault.png&#038;r=g' srcset='http://sdn.geekzu.org/avatar/15dce703d8946e2bd9328b0de7cd7143?s=72&amp;d=http%3A%2F%2Fwww.ihref.com%2Fwp-content%2Fthemes%2Fd8-3_0%2Fimg%2Fdefault.png&amp;r=g 2x' class='avatar avatar-36 photo' height='36' width='36' /></div><div class="c-main" id="div-comment-2230">非常感谢<div class="c-meta"><span class="c-author">luoyelingluo</span>2015-05-15 02:07 <a class='comment-reply-link' href='/read-16514.html?replytocom=2230#respond' onclick='return addComment.moveForm( "div-comment-2230", "2230", "respond", "16514" )' aria-label='回复给luoyelingluo'>回复</a></div></div></li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-2218"><div class="c-avatar"><img alt='' data-original='http://sdn.geekzu.org/avatar/c99099399582db098e4ac1fabef5a0fb?s=36&#038;d=http%3A%2F%2Fwww.ihref.com%2Fwp-content%2Fthemes%2Fd8-3_0%2Fimg%2Fdefault.png&#038;r=g' srcset='http://sdn.geekzu.org/avatar/c99099399582db098e4ac1fabef5a0fb?s=72&amp;d=http%3A%2F%2Fwww.ihref.com%2Fwp-content%2Fthemes%2Fd8-3_0%2Fimg%2Fdefault.png&amp;r=g 2x' class='avatar avatar-36 photo' height='36' width='36' /></div><div class="c-main" id="div-comment-2218">感谢!<div class="c-meta"><span class="c-author">hezekia</span>2015-04-21 22:38 <a class='comment-reply-link' href='/read-16514.html?replytocom=2218#respond' onclick='return addComment.moveForm( "div-comment-2218", "2218", "respond", "16514" )' aria-label='回复给hezekia'>回复</a></div></div></li><!-- #comment-## -->
+	</ol>
+	<div class="pagenav">
+			</div>
+</div>
+
+	</div>
+</div>
+<aside class="sidebar">	
+<div class="widget d_textbanner"><a class="style03" href="#"><strong>微信号：www_ihref_com</strong><h2></h2><p><img alt="爱分享微信二维码" src="http://www.ihref.com/wp-content/uploads/2015/09/%E7%88%B1%E5%88%86%E4%BA%AB%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" data-baiduimageplus-ignore></p></a></div>		<div class="widget widget_recent_entries">		<h3 class="widget_tit">近期文章</h3>		<ul>
+					<li>
+				<a href="http://www.ihref.com/read-17430.html">Mac无法开机怎么办？苹果Mac重置SMC方法详细介绍</a>
+							<span class="post-date">2016年5月24日</span>
+						</li>
+					<li>
+				<a href="http://www.ihref.com/read-17428.html">Mac死机了怎么办？苹果电脑死机后的解决方法介绍</a>
+							<span class="post-date">2016年5月24日</span>
+						</li>
+					<li>
+				<a href="http://www.ihref.com/read-17408.html">请马上停用这种水壶，长期喝它烧的水，后果很严重！很多人家里几乎都用！</a>
+							<span class="post-date">2016年3月23日</span>
+						</li>
+					<li>
+				<a href="http://www.ihref.com/read-17396.html">【涨知识】你家用的是A级锁还是B级锁，什么锁最安全？</a>
+							<span class="post-date">2016年3月21日</span>
+						</li>
+					<li>
+				<a href="http://www.ihref.com/read-17392.html">北京22家市属大医院新预约挂号方式赶快收藏备用，各种挂号平台统计整理。</a>
+							<span class="post-date">2016年2月24日</span>
+						</li>
+				</ul>
+		</div><div class="widget d_banner"><div class="d_banner_inner"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 爱分享右侧广告（新）3 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:360px;height:300px"
+     data-ad-client="ca-pub-4019190604262164"
+     data-ad-slot="9670452738"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div><div class="widget d_postlist"><h3 class="widget_tit">推荐文章</h3><ul class="nopic"><li><a href="http://www.ihref.com/read-16623.html"><span class="text">用Meta标签代码让360双核浏览器默认极速模式打开网站不是兼容模式</span><span class="muted">2014-11-17</span><span class="muted">31评论</span></a></li>
+<li><a href="http://www.ihref.com/read-16675.html"><span class="text">两台无线路由器怎么连接设置桥连接让局域网覆盖整个家无线漫游安装方法</span><span class="muted">2014-12-03</span><span class="muted">23评论</span></a></li>
+<li><a href="http://www.ihref.com/read-16422.html"><span class="text">30多条mysql数据库优化方法,千万级数据库记录查询轻松解决</span><span class="muted">2014-09-22</span><span class="muted">13评论</span></a></li>
+<li><a href="http://www.ihref.com/read-15727.html"><span class="text">如何高速安全转移手机通讯录、短信、图片、软件等数据资料</span><span class="muted">2014-05-16</span><span class="muted">10评论</span></a></li>
+<li><a href="http://www.ihref.com/read-15442.html"><span class="text">2014年春天不可错过的旅行全攻略</span><span class="muted">2014-03-13</span><span class="muted">9评论</span></a></li>
+</ul></div><div class="widget d_banner"><div class="d_banner_inner"><!-- 广告位：爱分享_PC网页_右侧1 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '2396034',
+        container: s,
+        size: '336,280',
+        display: 'inlay-fix'
+    });
+})();
+</script></div></div><div class="widget d_postlist"><h3 class="widget_tit">随机文章</h3><ul class="nopic"><li><a href="http://www.ihref.com/read-1597.html"><span class="text">设置Win8开机按F8进入安全模式</span><span class="muted">2013-11-09</span><span class="muted"></span></a></li>
+<li><a href="http://www.ihref.com/read-17154.html"><span class="text">俄罗斯摄像头曝 美间谍变装过程 男人瞬间变女人</span><span class="muted">2015-09-08</span><span class="muted"></span></a></li>
+<li><a href="http://www.ihref.com/read-1644.html"><span class="text">Win 7连向Win7系统远程桌面连接设置</span><span class="muted">2013-11-09</span><span class="muted"></span></a></li>
+<li><a href="http://www.ihref.com/read-13795.html"><span class="text">约翰卡马克是第一人称射击游戏之父</span><span class="muted">2014-01-07</span><span class="muted"></span></a></li>
+<li><a href="http://www.ihref.com/read-1874.html"><span class="text">必备的Word软件应用技巧</span><span class="muted">2013-11-09</span><span class="muted"></span></a></li>
+</ul></div><div class="widget d_banner"><div class="d_banner_inner"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 爱分享右侧336*280 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-4019190604262164"
+     data-ad-slot="2028867132"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div><div class="widget d_tag"><h3 class="widget_tit">标签云</h3><div class="d_tags"><a href="http://www.ihref.com/read-tag/%e6%94%bb%e7%95%a5">攻略 (33)</a><a href="http://www.ihref.com/read-tag/iphone">iPhone (25)</a><a href="http://www.ihref.com/read-tag/%e8%8b%b9%e6%9e%9c">苹果 (25)</a><a href="http://www.ihref.com/read-tag/2014%e5%b9%b4">2014年 (22)</a><a href="http://www.ihref.com/read-tag/%e5%be%ae%e8%bd%af">微软 (21)</a><a href="http://www.ihref.com/read-tag/%e8%8b%b1%e9%9b%84%e8%81%94%e7%9b%9f">英雄联盟 (19)</a><a href="http://www.ihref.com/read-tag/%e9%ad%94%e5%85%bd%e4%b8%96%e7%95%8c">魔兽世界 (17)</a><a href="http://www.ihref.com/read-tag/lol">LOL (17)</a><a href="http://www.ihref.com/read-tag/%e6%95%b0%e7%a0%81%e5%a4%a7%e5%b8%88">数码大师 (16)</a><a href="http://www.ihref.com/read-tag/windows">windows (16)</a><a href="http://www.ihref.com/read-tag/android">android (16)</a><a href="http://www.ihref.com/read-tag/ios-7">iOS 7 (15)</a><a href="http://www.ihref.com/read-tag/%e8%85%be%e8%ae%af">腾讯 (15)</a><a href="http://www.ihref.com/read-tag/%e6%a0%bc%e5%bc%8f%e8%bd%ac%e6%8d%a2">格式转换 (13)</a><a href="http://www.ihref.com/read-tag/dota2">DOTA2 (13)</a><a href="http://www.ihref.com/read-tag/qq">QQ (12)</a><a href="http://www.ihref.com/read-tag/windows-7">Windows 7 (12)</a><a href="http://www.ihref.com/read-tag/%e9%85%b7%e6%88%91%e9%9f%b3%e4%b9%90">酷我音乐 (11)</a><a href="http://www.ihref.com/read-tag/windows-8">Windows 8 (11)</a><a href="http://www.ihref.com/read-tag/%e7%82%89%e7%9f%b3%e4%bc%a0%e8%af%b4">炉石传说 (10)</a><a href="http://www.ihref.com/read-tag/%e8%b0%b7%e6%ad%8c">谷歌 (9)</a><a href="http://www.ihref.com/read-tag/%e6%8a%80%e5%b7%a7">技巧 (9)</a><a href="http://www.ihref.com/read-tag/%e6%89%8b%e6%b8%b8">手游 (9)</a><a href="http://www.ihref.com/read-tag/office">Office (9)</a><a href="http://www.ihref.com/read-tag/%e8%b6%8a%e7%8b%b1">越狱 (8)</a></div></div><div class="widget widget_meta"><h3 class="widget_tit">功能</h3>			<ul>
+						<li><a href="http://www.ihref.com/wp-login.php">登录</a></li>
+			<li><a href="http://www.ihref.com/feed">文章<abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://www.ihref.com/comments/feed">评论<abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			</ul>
+</div></aside></section>
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="copyright pull-left">
+            版权所有，保留一切权利！ &copy; 2016 <a href="http://www.ihref.com">爱分享</a>　京ICP备12017597号-京公网安备11010802011622｜<a href="http://www.ihref.com/contactus" target="_blank">联系我们</a>｜<a href="http://www.ihref.com/disclaimer" target="_blank">免责声明</a>｜<a href="http://www.ihref.com/sitemap.html" target="_blank">Sitemap</a>
+        </div>
+        <div class="trackcode pull-right">
+            <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5674038'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s9.cnzz.com/stat.php%3Fid%3D5674038' type='text/javascript'%3E%3C/script%3E"));</script>        </div>
+    </div>
+</footer>
+<script type='text/javascript' src='http://www.ihref.com/wp-content/plugins/akismet/_inc/form.js?ver=3.1.10'></script>
+	<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script></body>
+</html>
